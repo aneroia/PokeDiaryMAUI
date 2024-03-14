@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDiaryMobile.PokeInfo"
+             Title="Pokemon Info"
+             Appearing="PageAppearing">
+
+    <AbsoluteLayout BackgroundColor="#FDEAD6">
+
+
+       <!-- Заголовок "PokeDiary" -->
+        <Label 
+            Text="PokeDiary" 
+            FontSize="36"
+            FontAttributes="Bold" 
+            TextColor="#D84848" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.01, AutoSize, AutoSize" 
+        />
+
+        <!-- Прямоугольник для содержимого -->
+        <BoxView 
+            BackgroundColor="#FEA9A0"
+            Opacity="0" 
+            WidthRequest="500" 
+            HeightRequest="400" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.36, 1, 1" 
+        />
+
+        <!-- Заголовок "Pokemon info" -->
+        <Label 
+            Text="Pokemon info" 
+            FontSize="30"
+            FontAttributes="Bold" 
+            TextColor="White" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.1, AutoSize, AutoSize" 
+        />
+
+        <!-- Label для отображения имени покемона -->
+        <Label 
+            x:Name="PokeNameLabel" 
+            Text="Name: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.2, AutoSize, AutoSize" 
+        />
+
+        <!-- Label для отображения способностей покемона -->
+        <Label 
+            x:Name="PokeAblLabel" 
+            Text="Abilities: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.3, AutoSize, AutoSize" 
+        />
+
+        <!-- Label для отображения типа покемона -->
+        <Label 
+            x:Name="PokeTypeLabel" 
+            Text="Type: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.4, AutoSize, AutoSize" 
+        />
+        <!-- Label для отображения HP покемона -->
+        <Label 
+            x:Name="PokeHPLabel" 
+            Text="HP: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.25, 0.5, AutoSize, AutoSize" 
+        />
+        <!-- Label для отображения attack покемона -->
+        <Label 
+            x:Name="PokeAtkLabel" 
+            Text="Attack: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.75, 0.5, AutoSize, AutoSize" 
+        />
+        <!-- Label для отображения defence покемона -->
+        <Label 
+            x:Name="PokeDefLabel" 
+            Text="Defence: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.25, 0.55, AutoSize, AutoSize" 
+        />
+        <!-- Label для отображения speed покемона -->
+        <Label 
+            x:Name="PokeSpdLabel" 
+            Text="Speed: " 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.75, 0.55, AutoSize, AutoSize" 
+        />
+        
+
+        
+        
+    </AbsoluteLayout>
+
+
+</ContentPage>

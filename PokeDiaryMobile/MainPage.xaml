@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDiaryMobile.MainPage"
+             Title="Log in">
+
+    <AbsoluteLayout BackgroundColor="#FDEAD6">
+
+
+        <BoxView 
+            x:Name="RedRectangle"
+            BackgroundColor="#FEA9A0" 
+            Opacity="0" 
+            CornerRadius="10" 
+            WidthRequest="500" 
+            HeightRequest="300" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" 
+        />
+
+        <!-- Заголовок "PokeDiary" -->
+        <Label 
+            Text="PokeDiary" 
+            FontSize="36"
+            FontFamily="Snap ITC"
+            FontAttributes="Bold" 
+            TextColor="White" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.35, AutoSize, AutoSize" 
+        />
+
+        <!-- Поля ввода для логина и пароля -->
+        <Entry
+            x:Name="UsernameEntry"
+            Placeholder="Username" 
+            BackgroundColor="#FFCDCA" 
+            WidthRequest="200"
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.45, AutoSize, AutoSize" 
+        />
+        <Entry 
+            Placeholder="Password" 
+            BackgroundColor="#FFCDCA" 
+            IsPassword="True" 
+            WidthRequest="200"
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.55, AutoSize, AutoSize" 
+        />
+
+        <!-- Кнопка "Log in" -->
+        <Button 
+            Text="Log in" 
+            BackgroundColor="#FFDEDE" 
+            TextColor="#F36969"
+            FontAttributes="Bold" 
+            CornerRadius="5"
+            FontSize="18" 
+            WidthRequest="100"
+            Clicked="OnLoginClicked"
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.65, AutoSize, AutoSize" 
+        />
+
+        <!-- Текстовая ссылка "Register" -->
+        <Label 
+            Text="Register" 
+            TextColor="#F36969" 
+            FontSize="16"
+            HorizontalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.75, AutoSize, AutoSize" 
+        />
+    </AbsoluteLayout>
+
+</ContentPage>

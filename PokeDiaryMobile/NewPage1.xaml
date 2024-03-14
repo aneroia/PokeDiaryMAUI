@@ -1,0 +1,113 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDiaryMobile.NewPage1">
+
+    <AbsoluteLayout BackgroundColor="#FDEAD6">
+
+        <!-- Прямоугольник для заголовка -->
+        
+
+        <!-- Заголовок "PokeDiary" -->
+        <Label 
+            Text="PokeDiary" 
+            FontSize="36"
+            FontAttributes="Bold" 
+            TextColor="#D84848" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.01, AutoSize, AutoSize" 
+        />
+
+        <!-- Прямоугольник для содержимого -->
+        <BoxView 
+            x:Name="FirstRectangle"
+            BackgroundColor="#FEA9A0"
+            Opacity="0" 
+            WidthRequest="500" 
+            HeightRequest="150" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.20, 1, 1" 
+        />
+
+        <!-- Заголовок "Your Page" -->
+        <Label 
+            Text="Your Page" 
+            FontSize="24"
+            FontAttributes="Bold" 
+            TextColor="White" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.11, AutoSize, AutoSize" 
+        />
+
+        <!-- Label для отображения имени пользователя -->
+        <Label 
+            x:Name="UsernameLabel" 
+            Text="" 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.20, AutoSize, AutoSize" 
+        />
+
+        <!-- Прямоугольник для содержимого -->
+        <BoxView 
+            x:Name="SecondRectangle"
+            BackgroundColor="#FEA9A0"
+            Opacity="0" 
+            WidthRequest="500" 
+            HeightRequest="225" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.47, 1, 1" 
+        />
+
+        <!-- Заголовок "PokeLibrary" -->
+        <Label 
+            Text="PokeLibrary" 
+            FontSize="24"
+            FontAttributes="Bold" 
+            TextColor="White" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.35, AutoSize, AutoSize" 
+        />
+
+        <!-- Label для описания -->
+        <Label 
+            Text="Write pokemon's name to find it" 
+            FontSize="20" 
+            TextColor="White" 
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.40, AutoSize, AutoSize" 
+        />
+
+        <!-- Поле ввода для имени покемона -->
+        <Entry
+            x:Name="PokeNameEntry"
+            Placeholder="Pokemon's name" 
+            BackgroundColor="#FFCDCA" 
+            WidthRequest="200"
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.47, AutoSize, AutoSize" 
+        />
+
+        <!-- Кнопка "Find" -->
+        <Button 
+            Text="Find" 
+            BackgroundColor="#FFDEDE" 
+            TextColor="#F36969"
+            FontAttributes="Bold"
+            FontSize="18" 
+            CornerRadius="5" 
+            WidthRequest="100"
+            Clicked="OnFindClicked"
+            AbsoluteLayout.LayoutFlags="PositionProportional" 
+            AbsoluteLayout.LayoutBounds="0.5, 0.55, AutoSize, AutoSize" 
+        />
+
+    </AbsoluteLayout>
+
+</ContentPage>

@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{C3C163F5-45EE-44CF-8918-6A13CDA2F4D4}|Default">
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PokeDiaryMobile PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PokeDiaryMobile/PokeInfo.xaml">
+    <Files>
+      <File FileName="PokeDiaryMobile/MauiProgram.cs" />
+      <File FileName="PokeDiaryMobile/AppShell.xaml.cs" />
+      <File FileName="PokeDiaryMobile/AppShell.xaml" />
+      <File FileName="PokeDiaryMobile/MainPage.xaml.cs" />
+      <File FileName="PokeDiaryMobile/MainPage.xaml" />
+      <File FileName="PokeDiaryMobile/NewPage1.xaml" />
+      <File FileName="PokeDiaryMobile/NewPage1.xaml.cs" />
+      <File FileName="PokeDiaryMobile/PokeInfo.xaml" Line="20" Column="12" />
+      <File FileName="PokeDiaryMobile/PokeInfo.xaml.cs" />
+      <File FileName="PokeDiaryMobile/Resources/Images/dotnet_bot.svg" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PokeDiaryMobile" expanded="True">
+            <Node name="PokeDiaryMobile" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="NewPage1.xaml" expanded="True" />
+              <Node name="PokeInfo.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
